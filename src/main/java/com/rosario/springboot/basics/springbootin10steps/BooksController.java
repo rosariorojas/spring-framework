@@ -12,6 +12,6 @@ public class BooksController {
 	//get - to retrieve data
 	@GetMapping("/books")
 	public List<Book> getAllBooks(){
-		return Arrays.asList(new Book(11, "Mastering Spring","Rosario Rojas"));
+		return Arrays.asList(new Book(11, "Mastering Spring","Rosario Rojas Vidales"));
 	}
 }
